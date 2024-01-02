@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link href="fsdfr.png" rel="shortcut icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> GMT Creation Official </title>
+    <style>
+         @media only screen and (max-width: 600px) {
+         
+            body{
+                margin:0;
+                background-color: #e4e4e4;
+                height: 350px;
+                margin-left: 0;
+                max-width: fit-content
+                
+                
+            }
+          
+            .div-one{
+                background-image: linear-gradient(to right bottom,#53fe47,#2fdfbc,#2fdfbc);
+                width: 100%;
+                height: 250px;
+                border-bottom-left-radius: 30px;
+                border-bottom-right-radius: 30px;
+                box-sizing: border-box;
+                top: -20px;
+                position: relative;
+            }
+               .text-one{
+                font-size: 25px;
+                text-align: left;
+                color: white;
+                font-family: sans-serif;
+                 position: relative;
+                 top: 30px;
+                 padding: 20px;
+                
+                 width: 300px;
+               }
+          
+             .div-two{
+               
+                width: 100%;
+                height: 220px;
+                position: relative;
+                top: -120px;
+                display: flex;
+                justify-content: space-around;
+             }
+             .div-three{
+                background-color: white;
+                width: 200px;
+                height: 150px;
+                border-radius: 50px;
+                text-align: center;
+                transition: .3s;
+                transform: scale(.8);
+             }
+             .yt-logo{
+                width: 70px;
+                filter: saturate(3);
+                position: relative;
+                left: 0px;
+                transform: scale(.7);
+                
+             }
+             .fb-logo{
+                width: 70px;
+                filter: saturate(3);
+                position: relative;
+                left: 0px;
+                transform: scale(.7);
+                
+             }
+             .text-yt{
+                font-size: 15px;
+                font-family: sans-serif;
+                margin-top: -3px;
+                padding: 0;
+                
+             }
+             .yt-btn{
+                border: none;
+                height: 30px;
+                width: 130px;
+                background: red;
+                color: white;
+                font-family: sans-serif;
+                font-size: 14px;
+                border-radius: 20px;
+                cursor: pointer;
+                transition: .3s;
+             }
+             .yt-btn:hover{
+                background-color: yellow;
+                color: black;
+             }
+             .yt-btn:focus{
+                background-color: silver;
+             }
+             .fb-btn{
+                border: none;
+                height: 30px;
+                width: 130px;
+                background: #1a78f4;
+                color: white;
+                font-family: sans-serif;
+                font-size: 14px;
+                border-radius: 20px;
+                cursor: pointer;
+                transition: .3s;
+             }
+             .fb-btn:hover{
+                background-color: yellow;
+                color: black;
+             }
+             .fb-btn:focus{
+                background-color: silver;
+             }
+             .text-lo{
+                font-size: 12px;
+                font-family: sans-serif;
+                color: white;
+                position: relative;
+                left: 20px;
+                top: 0px;
+               
+                width: 400px;
+             }
+             .div-three:hover{
+                box-shadow: 1px 1px 20px gray;
+             }
+             .ex-text{
+               font-size: 18px;
+               font-family: sans-serif;
+               padding: 0px;
+               position: relative;
+               top: -180px;
+               margin-bottom: 0px;
+               left: 20px;
+               
+               width: 200px;
+              
+             }
+             .btn-four{
+               background-color: white;
+               width: 200px;
+               height: 100px;
+               border-radius: 50px;
+               transition: 1s;
+               border: none;
+               position: relative;
+               top: 30px;
+               transform: scale(.7);
+               display: inline;
+             }
+             .btn-four:focus{
+               background: white;
+               width: 250px;
+             }
+             .btn-four:hover{
+               box-shadow: 1px 1px 10px gray;
+             }
+             .div-four{
+               width: 100%;
+               height: 550px;
+               text-align: center;
+               position: relative;
+               top: -180px;
+               line-height: 20px;
+              
+             }
+             .img1{
+               border-radius: 500px;
+               width: 90px;
+               position: relative;
+               left: -15px;
+               top: 4px;
+               transition: 1s;
+             }
+          
+           .btn-four:focus .img1{
+            transform: translate(-25px,0px) rotate(360deg);
+           }
+            .con{
+               background-image: linear-gradient(to right bottom,#53fe47,#2fdfbc,#2fdfbc);
+               padding: 10px;
+               border-radius: 20px;
+               position: relative;
+               top: -33px;
+               left: 10px;
+               text-decoration: none;
+               color: white;
+               font-family: sans-serif;
+               transition: 1s;
+            }
+            .con:focus{
+              color: black;
+            }
+            .con:hover{
+               box-shadow: 1px 1px 10px gray;
+            }
+            footer{
+                height: 88px;
+                border-top-right-radius: 50px;
+                border-top-left-radius: 50px;
+                background-color: white;
+                visibility: visible;
+                position: relatives;
+                top: 0px;
+                display: flex;
+                justify-content: center;
+                
+                
+               }
+            .footer-btn{
+               border-radius: 50%;
+               width: 100px;
+               height: 100px;
+               background: white;
+               position: relative;
+               top:-15px;
+               border: none;
+               cursor: pointer;
+               left: -45px;
+               transition: 2s;
+            }
+            .footer-btn:focus{
+               transform: translate(150px,0px);
+            }
+            .gmt{
+               width: 80px;
+               position: relative;
+              border-radius: 50%;
+            }
+            .back{
+               height: 50px;
+               width: 90px;
+               background-image: linear-gradient(to right bottom,hotpink,orange);
+               border: none;
+               border-radius: 30px;
+               color: white;
+               font-family: sans-serif;
+               position: relative;
+               top: 20px;
+               left: 50px;
+               cursor: pointer;
+               transition: 1s;
+            }
+            .back:hover{
+               box-shadow: 1px 1px 5px gray;
+            }
+            .back:focus{
+               color: black;
+            }
+         }
+
+         @media only screen and (min-width: 600px) {
+            body{
+                margin: 0;
+                background-color: #e4e4e4;
+                height: 100px;
+               
+                
+            }
+            *{
+                box-sizing: border-box;
+            }
+            .div-one{
+                background-image: linear-gradient(to right bottom,#53fe47,#2fdfbc,#2fdfbc);
+                width: 100%;
+                height: 250px;
+                border-bottom-left-radius: 30px;
+                border-bottom-right-radius: 30px;
+                box-sizing: border-box;
+                top: -20px;
+                position: relative;
+            }
+               .text-one{
+                font-size: 25px;
+                text-align: left;
+                color: white;
+                font-family: sans-serif;
+                 position: relative;
+                 top: 30px;
+                 padding: 20px;
+               }
+          
+             .div-two{
+               
+                width: 100%;
+                height: 220px;
+                position: relative;
+                top: -120px;
+                display: flex;
+                justify-content: space-around;
+             }
+             .div-three{
+                background-color: white;
+                width: 200px;
+                height: 150px;
+                border-radius: 50px;
+                text-align: center;
+                transition: .3s;
+             }
+             .yt-logo{
+                width: 70px;
+                filter: saturate(3);
+                position: relative;
+                left: 0px;
+                
+             }
+             .fb-logo{
+                width: 70px;
+                filter: saturate(3);
+                position: relative;
+                left: 0px;
+                
+             }
+             .text-yt{
+                font-size: 15px;
+                font-family: sans-serif;
+                margin-top: -3px;
+                padding: 0;
+             }
+             .yt-btn{
+                border: none;
+                height: 30px;
+                width: 130px;
+                background: red;
+                color: white;
+                font-family: sans-serif;
+                font-size: 14px;
+                border-radius: 20px;
+                cursor: pointer;
+                transition: .3s;
+             }
+             .yt-btn:hover{
+                background-color: yellow;
+                color: black;
+             }
+             .yt-btn:focus{
+                background-color: silver;
+             }
+             .fb-btn{
+                border: none;
+                height: 30px;
+                width: 130px;
+                background: #1a78f4;
+                color: white;
+                font-family: sans-serif;
+                font-size: 14px;
+                border-radius: 20px;
+                cursor: pointer;
+                transition: .3s;
+             }
+             .fb-btn:hover{
+                background-color: yellow;
+                color: black;
+             }
+             .fb-btn:focus{
+                background-color: silver;
+             }
+             .text-lo{
+                font-size: 12px;
+                font-family: sans-serif;
+                color: white;
+                position: relative;
+                left: 20px;
+                top: 0px;
+             }
+             .div-three:hover{
+                box-shadow: 1px 1px 20px gray;
+             }
+             .ex-text{
+               font-size: 18px;
+               font-family: sans-serif;
+               padding: 0px;
+               position: relative;
+               top: -180px;
+               margin-bottom: 0px;
+               left: 20px;
+              
+             }
+             .btn-four{
+               background-color: white;
+               width: 200px;
+               height: 100px;
+               border-radius: 50px;
+               transition: 1s;
+               border: none;
+               position: relative;
+               top: 30px;
+             }
+             .btn-four:focus{
+               background: white;
+               width: 250px;
+             }
+             .btn-four:hover{
+               box-shadow: 1px 1px 10px gray;
+             }
+             .div-four{
+               width: 100%;
+               height: 460px;
+               text-align: center;
+               position: relative;
+               top: -180px;
+               line-height: 120px;
+              
+             }
+             .img1{
+               border-radius: 500px;
+               width: 90px;
+               position: relative;
+               left: -15px;
+               top: 4px;
+               transition: 1s;
+             }
+          
+           .btn-four:focus .img1{
+            transform: translate(-25px,0px) rotate(360deg);
+           }
+            .con{
+               background-image: linear-gradient(to right bottom,#53fe47,#2fdfbc,#2fdfbc);
+               padding: 10px;
+               border-radius: 20px;
+               position: relative;
+               top: -33px;
+               left: 10px;
+               text-decoration: none;
+               color: white;
+               font-family: sans-serif;
+               transition: 1s;
+            }
+            .con:focus{
+              color: black;
+            }
+            .con:hover{
+               box-shadow: 1px 1px 10px gray;
+            }
+            footer{
+                height: 110px;
+                border-top-right-radius: 50px;
+                border-top-left-radius: 50px;
+                background-color: white;
+                visibility: visible;
+                position: relative;
+                top: -155px;
+                display: flex;
+                justify-content: center;
+               }
+            .footer-btn{
+               border-radius: 50%;
+               width: 100px;
+               height: 100px;
+               background: white;
+               position: relative;
+               top:-15px;
+               border: none;
+               cursor: pointer;
+               left: -100px;
+               transition: 2s;
+            }
+            .footer-btn:focus{
+               transform: translate(200px,0px);
+            }
+            .gmt{
+               width: 80px;
+               position: relative;
+              border-radius: 50%;
+            }
+            .back{
+               height: 50px;
+               width: 90px;
+               background-image: linear-gradient(to right bottom,hotpink,orange);
+               border: none;
+               border-radius: 30px;
+               color: white;
+               font-family: sans-serif;
+               position: relative;
+               top: 20px;
+               left: -120px;
+               cursor: pointer;
+               transition: 1s;
+            }
+            .back:hover{
+               box-shadow: 1px 1px 5px gray;
+            }
+            .back:focus{
+               color: black;
+            }
+
+         }
+    </style>
+</head>
+<body>
+    <div class="div-one">
+         <h1 class="text-one"> Let's Jump! </h1>
+         <h1 class="text-lo"> Choose where you want to go...</h1>
+    </div>
+    <div class="div-two">
+         <div class="div-three"> 
+             <a href="http://www.youtube.com/@GMTCreationOfficial"> <img class="yt-logo" src="ei_1663472577363-removebg-preview.png"/></a>
+             <h1 class="text-yt"> GMT Creation Official</h1>
+             <button class="yt-btn" onclick="location.href='http://www.youtube.com/@GMTCreationOfficial'"> Go to Channel </button>
+         </div>
+         <div class="div-three">
+            <a href="https://www.facebook.com/gmtcreation"> <img class="fb-logo" src="fdggsd.png"/></a>
+            <h1 class="text-yt"> GMT Creation </h1>
+            <button class="fb-btn" onclick="location.href='https://www.facebook.com/gmtcreation'"> Go to Page </button>
+         </div>
+    </div>
+        <h2 class="ex-text"> We are all here... </h2>
+
+      <div class="div-four">
+         <button class="btn-four">
+             <a href="https://www.facebook.com/profile.php?id=100090625191235"> <img class="img1" src="ami.jpg"/></a> 
+             <a class="con" href="https://www.facebook.com/profile.php?id=100090625191235"> Contact </a>
+             <h3 class="ami"> Mohammad Imran</h3> 
+             </button>
+             
+             <button class="btn-four">
+               <a href="https://www.facebook.com/mdabusalehnoor9"> <img class="img1" src="FB_IMG_1703559485354.jpg"/></a> 
+               <a class="con" href="https://www.facebook.com/mdabusalehnoor9"> Contact </a>
+               <h3 class="ami"> Abu Saleh Noor</h3> 
+               </button>
+               <button class="btn-four">
+                  <a href="https://www.facebook.com/profile.php?id=100054990487799"> <img class="img1" src="Riyan_20230424_181711_lmc_8.4.jpg"/></a> 
+                  <a class="con" href="https://www.facebook.com/profile.php?id=100054990487799"> Contact </a>
+                  <h3 class="ami"> Humayun Kobir Joy</h3> 
+                  </button>
+                  
+                  <button class="btn-four">
+                    <a href="https://www.facebook.com/profile.php?id=100064457002661"> <img class="img1" src="IMG20231215224156.jpg"/></a> 
+                    <a class="con" href="https://www.facebook.com/profile.php?id=100064457002661"> Contact </a>
+                    <h3 class="ami"> Reshadul Islam Rafi</h3> 
+                    </button>
+                    <button class="btn-four">
+                     <a href="https://www.facebook.com/mdrafsan.tofa"> <img class="img1" src="Riyan_20230424_181829_lmc_8.4.jpg"/></a> 
+                     <a class="con" href="https://www.facebook.com/mdrafsan.tofa"> Contact </a>
+                     <h3 class="ami"> Rafsan Tofa </h3> 
+                     </button>
+                     
+                     <button class="btn-four">
+                       <a href="https://www.facebook.com/profile.php?id=100073960924480"> <img class="img1" src="FB_IMG_1703560565377.jpg"/></a> 
+                       <a class="con" href="https://www.facebook.com/profile.php?id=100073960924480"> Contact </a>
+                       <h3 class="ami"> Jisan Ahamed Joy</h3> 
+                       </button>
+    
+      </div>
+         
+    <footer>
+        <button class="back" onclick="location.href='index.html'"> Back </button>
+         <button class="footer-btn"> 
+            <img class="gmt" src="qswd.jpg"/>
+         </button>
+
+
+    </footer>
+</body>
+</html>
